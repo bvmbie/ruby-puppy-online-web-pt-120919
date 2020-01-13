@@ -14,14 +14,16 @@ class Dog
     end
   end
 
+  def self.print_all
+     @@all.each do |dog|
+      puts dog
+    end
+  end
+
   def self.clear_all
     @@all.clear
   end
   
-  def self.print_all
-     @@all.each do |dog|
-      puts dog.to_s
-    end
-  end
+  
 
 end
