@@ -8,6 +8,10 @@ class Dog
     @@all << name
   end
   
+  def save
+    @@all << self
+  end
+  
   def self.all
     @@all.each do |dog|
       puts dog
