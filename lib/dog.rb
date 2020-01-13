@@ -10,7 +10,7 @@ class Dog
   
   def self.all
     @@all.each do |dog|
-      puts dog.to_s
+      puts dog
     end
   end
 
